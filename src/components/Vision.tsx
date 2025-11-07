@@ -10,7 +10,7 @@ const Vision: React.FC = () => {
 
                         <div className="flex gap-2 flex-col">
                             <h2 className="text-xl md:text-5xl tracking-tighter lg:max-w-xl font-regular text-left">
-                                Vision
+                                Visión
                             </h2>
                             <p className="text-lg max-w-xl lg:max-w-sm leading-relaxed tracking-tight text-muted-foreground text-left pt-10">
                                 Ser reconocida en el 2030 como la entidad financiera más accesible para el crecimiento y fortalecimiento del campo agropecuario y artesanal del país

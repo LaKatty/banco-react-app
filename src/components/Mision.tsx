@@ -13,7 +13,7 @@ const Mision: React.FC = () => {
                 <div className="flex gap-4 pl-0 lg:pl-20 flex-col  flex-1">
                     <div className="flex gap-2 flex-col">
                         <h2 className="text-xl md:text-5xl tracking-tighter lg:max-w-xl font-regular text-left">
-                        Mision
+                        Misión
                         </h2>
                         <p className="text-lg max-w-xl lg:max-w-sm leading-relaxed tracking-tight text-muted-foreground text-left pt-10">
                             Impulsar el crecimiento del sector Agropecuario y artesanal de Colombia fortaleciendo la innovación y el emprendimiento al desarrollo sostenible.

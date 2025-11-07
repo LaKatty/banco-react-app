@@ -68,12 +68,12 @@ export const Footer1 = () => {
                         <div className="flex gap-20 flex-row">
                             <div className="flex flex-col text-sm max-w-lg leading-relaxed tracking-tight text-background/75 text-left">
                                 <p>Acerca de nosotros</p>
-                                <p>Puntos de atencion</p>
+                                <p>Puntos de atención</p>
                                 <p>Centro de ayuda</p>
                             </div>
                             <div className="flex flex-col text-sm max-w-lg leading-relaxed tracking-tight text-background/75 text-left">
-                                <p>Terminos y condiciones</p>
-                                <p>Politicas de privacidad</p>
+                                <p>Términos y condiciones</p>
+                                <p>Políticas de privacidad</p>
                             </div>
                         </div>
                     </div>
