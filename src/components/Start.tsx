@@ -14,14 +14,14 @@ export const Start = () => (
                         Gestiona tus productos financieros con agilidad, confianza y respaldo.
                     </p>
                 </div>
-                <div className="flex flex-row gap-4">
+                {/* <div className="flex flex-row gap-4">
                     <button className="gap-20 bg-gray-400 rounded-xl border-8 border-gray-400 ">
                         Debito
                     </button>
                     <button className="gap-4 bg-gray-400 rounded-xl border-8 border-gray-400">
                         Credito
                     </button>
-                </div>
+                </div> */}
             </div>
         </div>
     </div>
