@@ -15,7 +15,7 @@ export const Vision = () => (
                     </div>
                 </div>
                 <div className="bg-muted rounded-md w-full aspect-video h-full flex-1">
-                    <img src="/src/assets/Visionimg.png" alt="temporal" />
+                    <img src="/public/Visionimg.png" alt="temporal" />
                 </div>
             </div>
         </div>
