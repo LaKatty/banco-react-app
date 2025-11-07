@@ -1,12 +1,14 @@
 //import { Badge } from "@/components/ui/badge";
+import React from "react";
+import Misionimg from "../assets/Misionimg.png"
 
-
-export const Mision = () => (
+const Mision: React.FC = () => {
+    return(
     <div className="w-full pb-3 pt-32">
         <div className="container mx-auto">
             <div className="flex flex-col-reverse lg:flex-row gap-10 lg:items-center">
                 <div className="bg-muted rounded-md w-full aspect-video h-full flex-1">
-                    <img src="/public/Misionimg.png" alt="temporal" />
+                    <img src={Misionimg} alt="temporal" />
                 </div>
                 <div className="flex gap-4 pl-0 lg:pl-20 flex-col  flex-1">
                     <div className="flex gap-2 flex-col">
@@ -22,5 +24,6 @@ export const Mision = () => (
         </div>
     </div>
 );
+};
 
 export default Mision
