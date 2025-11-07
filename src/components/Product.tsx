@@ -1,4 +1,15 @@
-export const Product = () => (
+import React from "react";
+import Credito from "../assets/tarjetaCredito.png"
+import Lisin from "../assets/lisingterrirorial.png"
+import Debito from "../assets/tarjetaDebito.png"
+import Raices from "../assets/raices.jpeg"
+import Semilla from "../assets/Semilladelfuturo.png"
+import CDT from "../assets/CDT.jpeg"
+
+
+
+const Product: React.FC = () => {
+    return(
     <div className="w-full py-20 lg:py-40 pt-40">
         <div className="container mx-auto ">
             <div className="flex flex-col gap-10">
@@ -15,7 +26,7 @@ export const Product = () => (
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     <div className="flex flex-col gap-2">
                         <div className="bg-muted rounded-md aspect-video mb-2">
-                            <img src="./src/assets/tarjetaCredito.png" alt="tarjeta Credito" />
+                            <img src={Credito} alt="tarjeta Credito" />
                         </div>
 
                         <h3 className="text-xl tracking-tight">AgroVerde</h3>
@@ -27,7 +38,7 @@ export const Product = () => (
                     {/**Vacio */}
                     <div className="flex flex-col gap-2">
                         <div className="bg-muted rounded-md aspect-video mb-2">
-                            <img src="./src/assets/lisingterrirorial.png" alt="habitacional" />
+                            <img src={Lisin} alt="habitacional" />
                         </div>
                         <h3 className="text-xl tracking-tight">Leasing Territorial</h3>
                         <p className="text-muted-foreground text-base">
@@ -37,7 +48,7 @@ export const Product = () => (
                     {/**Cierra vacio */}
                     <div className="flex flex-col gap-2">
                         <div className="bg-muted rounded-md aspect-video mb-2">
-                            <img src="./src/assets/tarjetaDebito.png" alt="tarjeta Debito" />
+                            <img src={Debito} alt="tarjeta Debito" />
                         </div>
                         <h3 className="text-xl tracking-tight">Mi Tierra</h3>
                         <p className="text-muted-foreground text-base">
@@ -48,7 +59,7 @@ export const Product = () => (
                     {/**Mas productos */}
                     <div className="flex flex-col gap-2">
                         <div className="bg-muted rounded-md aspect-video mb-2">
-                            <img src="./src/assets/raices.jpeg" alt="CDT" />
+                            <img src={Raices} alt="CDT" />
                         </div>
                         <h3 className="text-xl tracking-tight">Raíces 360</h3>
                         <p className="text-muted-foreground text-base">
@@ -58,7 +69,7 @@ export const Product = () => (
                     </div>
                     <div className="flex flex-col gap-2">
                         <div className="bg-muted rounded-md aspect-video mb-2">
-                            <img src="./src/assets/Semilladelfuturo.png" alt="Semillas" />
+                            <img src={Semilla} alt="Semillas" />
                         </div>
                         <h3 className="text-xl tracking-tight">Semilla del futuro</h3>
                         <p className="text-muted-foreground text-base">
@@ -67,7 +78,7 @@ export const Product = () => (
                     </div>
                     <div className="flex flex-col gap-2">
                         <div className="bg-muted rounded-md aspect-video mb-2">
-                            <img src="./src/assets/CDT.jpeg" alt="CDT" />
+                            <img src={CDT} alt="CDT" />
                         </div>
                         <h3 className="text-xl tracking-tight">CDT</h3>
                         <p className="text-muted-foreground text-base">
@@ -82,5 +93,6 @@ export const Product = () => (
         </div>
     </div>
 );
+};
 
 export default Product
