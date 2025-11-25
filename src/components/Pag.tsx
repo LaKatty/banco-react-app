@@ -28,49 +28,51 @@ const Pag: React.FC = () => {
             <header className='h-20'>
                 <Navbar />
             </header>
-            <div className='bg-green-950'>
-                <Encabezado />
-            </div>
-            {/*Cuerpo*/}
-            <main className='h-full w-full mt-15 pl-50 pr-50 pt-30'>
-                {/* <Text
+            <div className='h-full w-full'>
+                <div className=' '>
+                    <Encabezado />
+                </div>
+                {/*Cuerpo*/}
+                <main className=''>
+                    {/* <Text
                     text='Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati amet natus dolore iure dolores delectus, est aliquam incidunt ex alias possimus aliquid aspernatur! Magnam, delectus itaque odio nesciunt voluptatum ea!Lorem'
                 /> */}
 
-                <div className=' text-4xl font-bold mt-6 pt-7 '>
-                    <div className='text-4xl p-4 text-center'>
-                        <DynamicTitle
-                            title='Nuestra Esencia'
-                            subtitle=''
-                        />
-                        <div className='pt-5'>
-                            <Text
-                                text='Construimos futuro financiero de nuestros clientes con innovación, confianza y compromiso social'
+                    <div className=' text-4xl font-bold pt-7 '>
+                        <div className='text-4xl p-4 text-center'>
+                            <DynamicTitle
+                                title='Nuestra Esencia'
+                                subtitle=''
                             />
+                            <div className='pt-5'>
+                                <Text
+                                    text='Construimos futuro financiero de nuestros clientes con innovación, confianza y compromiso social.'
+                                />
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div>
-                    <Mision />
-                    <Vision />
-                    <Product />
-                </div>
-                {/*product*/}
-                <div>
-                    <Start />
-                </div>
-                <div>
-                    <Contact />
-                </div>
-                {/**Footer <div>
+                    <div>
+                        <Mision />
+                        <Vision />
+                        <Product />
+                    </div>
+                    {/*product*/}
+                    <div>
+                        <Start />
+                    </div>
+                    <div>
+                        <Contact />
+                    </div>
+                    {/**Footer <div>
                     <Footer1/>
                 </div>*/}
-                <div>
-                    <Footer1 />
-                </div>
+                    <div>
+                        <Footer1 />
+                    </div>
 
 
-            </main>
+                </main>
+            </div>
         </div >
     )
 }

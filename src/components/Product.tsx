@@ -1,29 +1,30 @@
 import React from "react";
 import Credito from "../assets/tarjetaCredito.png"
-import Lisin from "../assets/lisingterrirorial.png"
+import Lisin from "../assets/lisingterrirorial.jpeg"
 import Debito from "../assets/tarjetaDebito.png"
 import Raices from "../assets/raices.jpeg"
-import Semilla from "../assets/Semilladelfuturo.png"
+import Semilla from "../assets/Semilladelfuturo.jpeg"
 import CDT from "../assets/CDT.jpeg"
 
 
 
 const Product: React.FC = () => {
     return(
-    <div className="w-full py-20 lg:py-40 pt-40">
+    <div className="w-full py-20 lg:py-40 pt-40 text-center" id="producto">
         <div className="container mx-auto ">
             <div className="flex flex-col gap-10">
                 <div className="flex gap-4 flex-col items-start">
                     <div className="flex gap-2 flex-col">
-                        <h2 className="text-3xl md:text-5xl tracking-tighter max-w-xl font-regular text-left">
+                        <h2 className="text-3xl md:text-5xl tracking-tighter max-w-xl font-regular text-center">
                             Productos diseñados para ti!
                         </h2>
-                        <p className="text-lg max-w-xl lg:max-w-lg leading-relaxed tracking-tight text-muted-foreground  text-left pt-5">
+                        <p className="text-lg max-w-xl lg:max-w-lg leading-relaxed tracking-tight text-muted-foreground  text-center pt-5">
                             Descubre nuestra gama completa de productos financieros, creados para adaptarse a cada etapa de tu vida
                         </p>
                     </div>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    {/**Producto 1 */}
                     <div className="flex flex-col gap-2">
                         <div className="bg-muted rounded-md aspect-video mb-2">
                             <img src={Credito} alt="tarjeta Credito" />
@@ -36,9 +37,10 @@ const Product: React.FC = () => {
                         {/* <button className="pt-10">Solicitar</button> */}
                     </div>
                     {/**Vacio */}
+                    {/**Producto 2 */}
                     <div className="flex flex-col gap-2">
                         <div className="bg-muted rounded-md aspect-video mb-2">
-                            <img src={Lisin} alt="habitacional" />
+                            <img className="rounded-xl" src={Lisin} alt="habitacional" />
                         </div>
                         <h3 className="text-xl tracking-tight">Leasing Territorial</h3>
                         <p className="text-muted-foreground text-base">
@@ -46,9 +48,10 @@ const Product: React.FC = () => {
                         </p>
                     </div>
                     {/**Cierra vacio */}
+                    {/**Producto 3 */}
                     <div className="flex flex-col gap-2">
                         <div className="bg-muted rounded-md aspect-video mb-2">
-                            <img src={Debito} alt="tarjeta Debito" />
+                            <img  src={Debito} alt="tarjeta Debito" />
                         </div>
                         <h3 className="text-xl tracking-tight">Mi Tierra</h3>
                         <p className="text-muted-foreground text-base">
@@ -57,9 +60,10 @@ const Product: React.FC = () => {
                         {/* <button className="pt-10">Solicitar</button> */}
                     </div>
                     {/**Mas productos */}
+                    {/**Producto 4 */}
                     <div className="flex flex-col gap-2">
                         <div className="bg-muted rounded-md aspect-video mb-2">
-                            <img src={Raices} alt="CDT" />
+                            <img className="rounded-xl" src={Raices} alt="CDT" />
                         </div>
                         <h3 className="text-xl tracking-tight">Raíces 360</h3>
                         <p className="text-muted-foreground text-base">
@@ -67,18 +71,20 @@ const Product: React.FC = () => {
 
                         </p>
                     </div>
+                    {/**Producto 5 */}
                     <div className="flex flex-col gap-2">
                         <div className="bg-muted rounded-md aspect-video mb-2">
-                            <img src={Semilla} alt="Semillas" />
+                            <img className="rounded-xl" src={Semilla} alt="Semillas" />
                         </div>
                         <h3 className="text-xl tracking-tight">Semilla del futuro</h3>
                         <p className="text-muted-foreground text-base">
                             Cuenta de ahorro programado diseñada para agricultores, ganaderos, artesanos y asociaciones rurales. Permite acumular capital para proyectos productivos o familiares (maquinaria, finca, vivienda, educación) con rendimientos, bonificaciones y acceso a créditos preferenciales al cumplir la meta, el productor puede acceder a créditos preferenciales y entregar parte de su cosecha en centros de acopio aliados de Agrocoop366.
                         </p>
                     </div>
+                    {/**Producto 6 */}
                     <div className="flex flex-col gap-2">
                         <div className="bg-muted rounded-md aspect-video mb-2">
-                            <img src={CDT} alt="CDT" />
+                            <img className="rounded-xl" src={CDT} alt="CDT" />
                         </div>
                         <h3 className="text-xl tracking-tight">CDT</h3>
                         <p className="text-muted-foreground text-base">

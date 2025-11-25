@@ -1,16 +1,16 @@
 
 export const Start = () => (
-    <div className="w-full py-20 lg:py-40 bg-muted">
+    <div className="w-full py-20 lg:py-40 bg-muted bg-[#8EA82D]">
         <div className="container mx-auto">
-            <div className="flex flex-col text-center py-14 gap-4 items-center">
+            <div className="flex flex-col text-center py-14 gap-4 items-center text-white text-xl">
                 <div>
-                    <h3>Que esperas para empezar?</h3>
+                    <h3>¿Qué esperas para empezar?</h3>
                 </div>
-                <div className="flex flex-col gap-2">
+                <div className="flex flex-col gap-2 ">
                     <h3 className="text-3xl md:text-5xl tracking-tighter max-w-xl font-regular">
                         Más que un banco, un aliado en tus metas
                     </h3>
-                    <p className="text-lg leading-relaxed tracking-tight text-muted-foreground max-w-xl">
+                    <p className="text-lg leading-relaxed tracking-tight text-muted-foreground max-w-xl text-xl">
                         Gestiona tus productos financieros con agilidad, confianza y respaldo.
                     </p>
                 </div>

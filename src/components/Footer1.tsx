@@ -53,10 +53,10 @@ export const Footer1 = () => {
     ];
 */
     return (
-        <div className="w-full py-20 lg:py-40 bg-foreground text-background bg-gray-100">
+        <div className="w-full py-20 lg:py-40 bg-foreground text-background bg-[#714930]">
             <div className="container mx-auto">
                 <div className="grid lg:grid-cols-2 gap-10 items-center">
-                    <div className="flex gap-8 flex-col items-start">
+                    <div className="flex gap-8 flex-col items-start text-white">
                         <div className="flex gap-2 flex-col">
                             <h2 className="text-3xl md:text-5xl tracking-tighter max-w-xl font-regular text-left">
                                 AgroCoop366

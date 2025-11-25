@@ -17,7 +17,7 @@ const Vision: React.FC = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="bg-muted rounded-md w-full aspect-video h-full flex-1">
+                    <div className="bg-muted rounded-md w-fulls h-full flex-1">
                         <img src={Visionimg} alt="vision" />
                     </div>
                 </div>
