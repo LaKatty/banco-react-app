@@ -1,3 +1,4 @@
+import Logo from "../assets/Logo2.jpeg"
 
 export const Footer1 = () => {
     /*const navigationItems = [

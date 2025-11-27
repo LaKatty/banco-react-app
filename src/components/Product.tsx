@@ -25,8 +25,8 @@ const Product: React.FC = () => {
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     {/**Producto 1 */}
-                    <div className="flex flex-col gap-2">
-                        <div className="bg-muted rounded-md mb-2 shadow hover:shadow-lg transition ">
+                    <div className="flex flex-col gap-2 ">
+                        <div className="bg-muted rounded-md mb-2  hover:shadow-xl/30 ">
                             <img className="" src={Credito} alt="tarjeta Credito" />
                         </div>
 
@@ -39,7 +39,7 @@ const Product: React.FC = () => {
                     {/**Vacio */}
                     {/**Producto 2 */}
                     <div className="flex flex-col gap-2">
-                        <div className="bg-muted rounded-md aspect-video mb-2">
+                        <div className="bg-muted bg-muted rounded-md mb-2  hover:shadow-xl/30">
                             <img className="rounded-xl" src={Lisin} alt="habitacional" />
                         </div>
                         <h3 className="text-xl tracking-tight">Leasing Territorial</h3>
@@ -50,7 +50,7 @@ const Product: React.FC = () => {
                     {/**Cierra vacio */}
                     {/**Producto 3 */}
                     <div className="flex flex-col gap-2">
-                        <div className="bg-muted rounded-md aspect-video mb-2">
+                        <div className="bg-muted bg-muted rounded-md mb-2  hover:shadow-xl/30 mb-2">
                             <img className="rounded-xl" src={Raices} alt="CDT" />
                         </div>
                         <h3 className="text-xl tracking-tight">Raíces 360</h3>
@@ -62,7 +62,7 @@ const Product: React.FC = () => {
                     {/**Mas productos */}
                     {/**Producto 4 */}
                     <div className="flex flex-col gap-2">
-                        <div className="bg-muted rounded-md aspect-video mb-2">
+                        <div className="bg-muted bg-muted rounded-md mb-2  hover:shadow-xl/30 ">
                             <img className="rounded-xl" src={CDT} alt="CDT" />
                         </div>
                         <h3 className="text-xl tracking-tight">CDT</h3>
@@ -76,7 +76,7 @@ const Product: React.FC = () => {
                     
                     {/**Producto 5 */}
                     <div className="flex flex-col gap-2">
-                        <div className="bg-muted rounded-md aspect-video mb-2">
+                        <div className="bg-muted bg-muted rounded-md mb-2  hover:shadow-xl/30">
                             <img className="rounded-xl" src={Semilla} alt="Semillas" />
                         </div>
                         <h3 className="text-xl tracking-tight">Semilla del futuro</h3>
@@ -86,7 +86,7 @@ const Product: React.FC = () => {
                     </div>
                     {/**Producto 6 */}
                     <div className="flex flex-col gap-2">
-                        <div className="bg-muted rounded-md aspect-video mb-2">
+                        <div className="bg-muted bg-muted rounded-md mb-2  hover:shadow-xl/30">
                             <img  src={Debito} alt="tarjeta Debito" />
                         </div>
                         <h3 className="text-xl tracking-tight">Mi Tierra</h3>

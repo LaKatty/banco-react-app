@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 import Pag from './components/Pag.tsx'
 import '../src/styles/index.css'
-import Productos from "../src/pages/PagNosotros.tsx";
-import Nosotros from "../src/pages/PagProduct.tsx";
+import Productos from "./pages/PagProduct.tsx";
+import Calendario from "./pages/PagCalendario.tsx";
 import Contact from "./components/Pag.tsx";
 
 
@@ -18,7 +18,7 @@ function App() {
       <Route path="/" element={<Pag />} />
       {/**Vista productos */}
       <Route path="/producto" element={<Productos />} />
-      <Route path="/nosotros" element={<Nosotros />} />
+      <Route path="/calendario" element={<Calendario />} />
       <Route path="/contact" element={<Contact />} />
 
     </Routes>
