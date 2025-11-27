@@ -9,6 +9,8 @@ import Start from './Start'
 import Contact from './Contact'
 import Footer1 from './Footer1'
 import Encabezado from './Encabezado'
+import ChatBotFloating from './ChatBotFloating'
+
 
 function Appmain() {
     return (
@@ -37,6 +39,7 @@ const Pag: React.FC = () => {
                     {/* <Text
                     text='Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati amet natus dolore iure dolores delectus, est aliquam incidunt ex alias possimus aliquid aspernatur! Magnam, delectus itaque odio nesciunt voluptatum ea!Lorem'
                 /> */}
+
                     <Product />
                     <div className=' text-4xl font-bold pt-7 ' id="sobreNosotros">
                         <div className='text-4xl p-4 text-center bg-[#F3F7E3]'>
@@ -68,7 +71,7 @@ const Pag: React.FC = () => {
                     <div>
                         <Footer1 />
                     </div>
-
+                    <ChatBotFloating />
 
                 </main>
             </div>

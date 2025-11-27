@@ -5,6 +5,8 @@ import Productos from "./pages/PagProduct.tsx";
 import Calendario from "./pages/PagCalendario.tsx";
 import Contact from "./components/Pag.tsx";
 
+import Register from "./pages/Registro.tsx";
+import Login from "./pages/InicioSesion.tsx";
 
 import Menu from './components/Navbar.tsx'
 
@@ -20,6 +22,8 @@ function App() {
       <Route path="/producto" element={<Productos />} />
       <Route path="/calendario" element={<Calendario />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/register" element={<Register />} />
+      <Route path="/login" element={<Login />} />
 
     </Routes>
     </>

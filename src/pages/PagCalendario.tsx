@@ -76,7 +76,7 @@ const ProductosGrid = () => {
 
     return (
         <div className="py-10 bg-[#F3F7E3]">
-            <h2 className="text-4xl font-bold text-center py-4 pt-38 pb-20">Nuestros Productos</h2>
+            <h2 className="text-4xl font-bold text-center py-4 pt-38 pb-20">Calendario</h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-36">
                 {productos.map((prod) => (
