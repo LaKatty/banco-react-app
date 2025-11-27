@@ -2,7 +2,7 @@
   "name": "banco",
   "private": true,
   "version": "0.0.0",
-  "homepage":"https://lakatty.github.io/banco-react-app/",
+  "homepage": "https://lakatty.github.io/banco-react-app/",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.9.6"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",

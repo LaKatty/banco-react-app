@@ -1,10 +1,11 @@
+import { Link } from "react-router-dom";
+import Logo from '../assets/Logo2.jpeg'
 
-import Logo from '../assets/Logo.jpeg'
 
 function navbar() {
     
     return (
-        <header className='bg-white border-gray-200 white:bg-gray-900 fixed w-full border-b'>
+        <header className=' bg-white shadow-sm border-gray-200 white:bg-gray-900 fixed w-full border-b z-50'>
             <div className='max-w-7xl flex flex-wrap items-center justify-between mx-auto p-4'> {/*contenedor padre*/}
                 <div className='flex flex-wrap items-center space-x-3 rtl:space-x-reverse'>{/*contenedor hijo para el logo*/}
                     <img
@@ -25,17 +26,17 @@ function navbar() {
                                 Inicio</a>
                         </li>
                         <li>
-                            <a href="#producto" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-emerald-950 md:p-0 dark:text-black md:dark:hover:text-emerald-950 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
-                                Productos y Servicios</a>
+                            <Link to="/producto" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-emerald-950 md:p-0 dark:text-black md:dark:hover:text-emerald-950 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                                Productos y Servicios</Link>
                         </li>
                         <li>
-                            <a href="#sobreNosotros" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-emerald-950 md:p-0 dark:text-black md:dark:hover:text-emerald-950 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
-                                Nosotros</a>
+                            <Link to="/nosotros" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-emerald-950 md:p-0 dark:text-black md:dark:hover:text-emerald-950 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                                Nosotros</Link>
                         </li>
-                        <li>
-                            <a href="#contacto" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-emerald-950 md:p-0 dark:text-black md:dark:hover:text-emerald-950 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
-                                Contacto</a>
-                        </li>
+                        {/* <li>
+                            <Link to="/contact" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-emerald-950 md:p-0 dark:text-black md:dark:hover:text-emerald-950 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                                Contacto</Link>
+                        </li> */}
                     </ul>
                 </nav>
 

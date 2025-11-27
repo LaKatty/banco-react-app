@@ -37,9 +37,9 @@ const Pag: React.FC = () => {
                     {/* <Text
                     text='Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati amet natus dolore iure dolores delectus, est aliquam incidunt ex alias possimus aliquid aspernatur! Magnam, delectus itaque odio nesciunt voluptatum ea!Lorem'
                 /> */}
-
-                    <div className=' text-4xl font-bold pt-7 '>
-                        <div className='text-4xl p-4 text-center'>
+                    <Product />
+                    <div className=' text-4xl font-bold pt-7 ' id="sobreNosotros">
+                        <div className='text-4xl p-4 text-center bg-[#F3F7E3]'>
                             <DynamicTitle
                                 title='Nuestra Esencia'
                                 subtitle=''
@@ -54,7 +54,6 @@ const Pag: React.FC = () => {
                     <div>
                         <Mision />
                         <Vision />
-                        <Product />
                     </div>
                     {/*product*/}
                     <div>

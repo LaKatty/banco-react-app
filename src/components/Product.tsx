@@ -16,7 +16,7 @@ const Product: React.FC = () => {
                 <div className="flex gap-4 flex-col items-start">
                     <div className="flex gap-2 flex-col">
                         <h2 className="text-3xl md:text-5xl tracking-tighter max-w-xl font-regular text-center">
-                            Productos diseñados para ti!
+                            ¡Productos diseñados para ti!
                         </h2>
                         <p className="text-lg max-w-xl lg:max-w-lg leading-relaxed tracking-tight text-muted-foreground  text-center pt-5">
                             Descubre nuestra gama completa de productos financieros, creados para adaptarse a cada etapa de tu vida
@@ -26,8 +26,8 @@ const Product: React.FC = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     {/**Producto 1 */}
                     <div className="flex flex-col gap-2">
-                        <div className="bg-muted rounded-md aspect-video mb-2">
-                            <img src={Credito} alt="tarjeta Credito" />
+                        <div className="bg-muted rounded-md mb-2 shadow hover:shadow-lg transition ">
+                            <img className="" src={Credito} alt="tarjeta Credito" />
                         </div>
 
                         <h3 className="text-xl tracking-tight">AgroVerde</h3>
@@ -51,18 +51,6 @@ const Product: React.FC = () => {
                     {/**Producto 3 */}
                     <div className="flex flex-col gap-2">
                         <div className="bg-muted rounded-md aspect-video mb-2">
-                            <img  src={Debito} alt="tarjeta Debito" />
-                        </div>
-                        <h3 className="text-xl tracking-tight">Mi Tierra</h3>
-                        <p className="text-muted-foreground text-base">
-                            La Cuenta de Ahorro Rural “Mi Tierra” es un producto financiero diseñado especialmente para campesinos, agricultores, ganaderos y familias del sector rural, con el objetivo de fomentar el hábito del ahorro y facilitar el acceso a servicios financieros en zonas alejadas.
-                        </p>
-                        {/* <button className="pt-10">Solicitar</button> */}
-                    </div>
-                    {/**Mas productos */}
-                    {/**Producto 4 */}
-                    <div className="flex flex-col gap-2">
-                        <div className="bg-muted rounded-md aspect-video mb-2">
                             <img className="rounded-xl" src={Raices} alt="CDT" />
                         </div>
                         <h3 className="text-xl tracking-tight">Raíces 360</h3>
@@ -71,6 +59,21 @@ const Product: React.FC = () => {
 
                         </p>
                     </div>
+                    {/**Mas productos */}
+                    {/**Producto 4 */}
+                    <div className="flex flex-col gap-2">
+                        <div className="bg-muted rounded-md aspect-video mb-2">
+                            <img className="rounded-xl" src={CDT} alt="CDT" />
+                        </div>
+                        <h3 className="text-xl tracking-tight">CDT</h3>
+                        <p className="text-muted-foreground text-base">
+                            Certificado de Depósito a Término para el sector agropecuario y artesanal
+                            colombiano.
+                            Es una alternativa de inversión segura y rentable diseñada para fortalecer el ahorro del sector rural y
+                            artesanal.
+                        </p>
+                    </div>
+                    
                     {/**Producto 5 */}
                     <div className="flex flex-col gap-2">
                         <div className="bg-muted rounded-md aspect-video mb-2">
@@ -84,16 +87,15 @@ const Product: React.FC = () => {
                     {/**Producto 6 */}
                     <div className="flex flex-col gap-2">
                         <div className="bg-muted rounded-md aspect-video mb-2">
-                            <img className="rounded-xl" src={CDT} alt="CDT" />
+                            <img  src={Debito} alt="tarjeta Debito" />
                         </div>
-                        <h3 className="text-xl tracking-tight">CDT</h3>
+                        <h3 className="text-xl tracking-tight">Mi Tierra</h3>
                         <p className="text-muted-foreground text-base">
-                            Certificado de Depósito a Término para el sector agropecuario y artesanal
-                            colombiano.
-                            Es una alternativa de inversión segura y rentable diseñada para fortalecer el ahorro del sector rural y
-                            artesanal.
+                            La Cuenta de Ahorro Rural “Mi Tierra” es un producto financiero diseñado especialmente para campesinos, agricultores, ganaderos y familias del sector rural, con el objetivo de fomentar el hábito del ahorro y facilitar el acceso a servicios financieros en zonas alejadas.
                         </p>
+                        {/* <button className="pt-10">Solicitar</button> */}
                     </div>
+                    
                 </div>
             </div>
         </div>
