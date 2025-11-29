@@ -33,10 +33,10 @@ function navbar() {
                             <Link to="/calendario" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-emerald-950 md:p-0 dark:text-black md:dark:hover:text-emerald-950 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
                                 Calendario</Link>
                         </li>
-                        {/* <li>
+                        <li>
                             <Link to="/contact" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-emerald-950 md:p-0 dark:text-black md:dark:hover:text-emerald-950 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
-                                Contacto</Link>
-                        </li> */}
+                                Contactenos</Link>
+                        </li>
                     </ul>
                 </nav>
 

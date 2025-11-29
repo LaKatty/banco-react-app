@@ -3,7 +3,7 @@ import Visionimg from "../assets/Visionimg.png"
 
 const Vision: React.FC = () => {
     return (
-        <div className="w-full pb-20 pt-20">
+        <div className="w-full pb-20 pt-20 pr-50 pl-50">
             <div className="container mx-auto">
                 <div className="flex flex-col lg:flex-row gap-10 lg:items-center">
                     <div className="flex gap-4 flex-col flex-1">

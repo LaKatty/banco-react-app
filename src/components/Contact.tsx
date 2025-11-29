@@ -38,8 +38,8 @@ export const Contact = () => {
                                 <input id="picture" type="file" />
                             </div>
 
-                            <button className="gap-4 w-full">
-                                Enviar
+                            <button className="gap-4 w-full bg-amber-950 text-white rounded-full">
+                                <a href="">Enviar</a>
                             </button>
                         </div>
                     </div>

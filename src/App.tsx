@@ -3,7 +3,7 @@ import Pag from './components/Pag.tsx'
 import '../src/styles/index.css'
 import Productos from "./pages/PagProduct.tsx";
 import Calendario from "./pages/PagCalendario.tsx";
-import Contact from "./components/Pag.tsx";
+import Contact from "./pages/Contactenos.tsx";
 
 import Register from "./pages/Registro.tsx";
 import Login from "./pages/InicioSesion.tsx";

@@ -4,7 +4,7 @@ import Misionimg from "../assets/Misionimg.png"
 
 const Mision: React.FC = () => {
     return(
-    <div className="w-full pb-20 pt-20 bg-[#F3F7E3]">
+    <div className="w-full pb-20 pt-20 bg-[#F3F7E3] pr-50 pl-50">
         <div className="container mx-auto">
             <div className="flex flex-col-reverse lg:flex-row gap-10 lg:items-center">
                 <div className="bg-muted rounded-md w-full h-full flex-1">

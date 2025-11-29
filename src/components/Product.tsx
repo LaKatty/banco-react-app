@@ -10,7 +10,7 @@ import CDT from "../assets/CDT.jpeg"
 
 const Product: React.FC = () => {
     return(
-    <div className="w-full py-20 lg:py-40 pt-40 text-center" id="producto">
+    <div className="w-full py-20 lg:py-40 pt-40 text-center pr-60 pl-60" id="producto">
         <div className="container mx-auto ">
             <div className="flex flex-col gap-10">
                 <div className="flex gap-4 flex-col items-start">
